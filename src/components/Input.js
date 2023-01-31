@@ -61,7 +61,10 @@ export default function Input() {
   return (
     <div className="widget-input container">
       <h2>Input</h2>
-      <div id="output" style={stil}></div> {/* ADIM 3 */}
+      <div id="output" style={stil}>
+        {inputDeğeri.toUpperCase()}
+      </div>{" "}
+      {/* ADIM 3 */}
       <div>
         <input
           id="input"
